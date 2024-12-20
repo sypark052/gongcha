@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    background-image: url(../images/patten.png);
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    box-shadow: 0 0 8px #d9d9d9;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;  
+}
+header .top {
+    width: 1280px;
+    margin: 0 auto;
+    height: 100px;
+}
+header .top .logo {
+    float: left;
+    margin-top: 30px;
+}
+header .top .logo img {
+    width: 100%;
+    display: block;
+}
+header nav {
+    float: right;
+}
+header nav .gnb {
+    margin-top: 40px;
+}
+header nav .gnb ul li {
+    float: none;
+}
+header nav .gnb > li {
+    float:left;
+    position: relative; /* lnb의 기준 */
+}
+header nav .gnb > li~li {
+    margin-left: 30px;
+}
+header nav .gnb > li > a {
+    color: #333;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+header nav .gnb > li > a:hover {
+    color: #b81c2e;
+}
+
+header nav .lnb {
+    width: 130px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px #d9d9d9;
+
+    position: absolute;
+    top: 100%;
+
+    overflow: hidden;
+
+    display: none;
+}
+header nav .lnb li a {
+    padding: 10px 10px;
+    color: #666;
+}
+header nav .lnb li a:hover {
+    background-color: #b81c2e;
+    color: #fff;
+}

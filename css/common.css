@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.inner {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* 폰트 */
+
+body {
+    font-family: "Noto Sans KR", serif;
+    font-weight: 400;
+    color: #333;
+}
+
+
+
+
+

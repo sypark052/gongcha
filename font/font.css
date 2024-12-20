@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'GyeonggiTitleBOTFA';
+    src: url('GyeonggiTitleBOTFA.eot');
+    src: url('GyeonggiTitleBOTFA.eot?#iefix') format('embedded-opentype'),
+        url('GyeonggiTitleBOTFA.woff2') format('woff2'),
+        url('GyeonggiTitleBOTFA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GyeonggiBatangROTFA';
+    src: url('GyeonggiBatangROTFA.eot');
+    src: url('GyeonggiBatangROTFA.eot?#iefix') format('embedded-opentype'),
+        url('GyeonggiBatangROTFA.woff2') format('woff2'),
+        url('GyeonggiBatangROTFA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GyeonggiBatangBOTFA'; /* bold */
+    src: url('GyeonggiBatangBOTFA.eot');
+    src: url('GyeonggiBatangBOTFA.eot?#iefix') format('embedded-opentype'),
+        url('GyeonggiBatangBOTFA.woff2') format('woff2'),
+        url('GyeonggiBatangBOTFA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('GyeonggiTitleMOTFA.eot');
+    src: url('GyeonggiTitleMOTFA.eot?#iefix') format('embedded-opentype'),
+        url('GyeonggiTitleMOTFA.woff2') format('woff2'),
+        url('GyeonggiTitleMOTFA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('GyeonggiTitleLOTFA.eot');
+    src: url('GyeonggiTitleLOTFA.eot?#iefix') format('embedded-opentype'),
+        url('GyeonggiTitleLOTFA.woff2') format('woff2'),
+        url('GyeonggiTitleLOTFA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('GyeonggiTitleVOTFA.eot');
+    src: url('GyeonggiTitleVOTFA.eot?#iefix') format('embedded-opentype'),
+        url('GyeonggiTitleVOTFA.woff2') format('woff2'),
+        url('GyeonggiTitleVOTFA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

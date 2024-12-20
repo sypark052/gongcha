@@ -1,0 +1,101 @@
+/* @charset "utf-8";
+
+footer {
+    width: 100%;
+ 
+    background-color: #b81c2e;
+}
+ footer .foot {
+    width: 1280px;
+    margin: 0 auto;
+    outline: 2px solid blue
+ }
+ footer .ft-logo {
+    float: left;
+    width: 10%;
+    outline: 2px solid forestgreen;
+ }
+ footer .inner {}
+ footer .inner .links {}
+ footer .inner .links ul li {
+    margin-left: 30px;
+ }
+
+
+footer .business {}
+footer .business .contact {}
+footer .business .contact ul {}
+footer .business .contact ul li {}
+
+footer .business .contact {}
+footer .business .contact2 ul {}
+footer .business .contact ul li {} */
+
+footer {
+   width: 100%;
+   background-color: #b81c2e;
+   color: #fff;
+   padding: 30px 0;
+}
+
+footer .foot {
+   width: 1280px; 
+   max-width: 1920px;
+   margin: 0 auto;   
+}
+
+footer .foot .ft-logo {
+   display: inline-block;
+   float: left; 
+   /* outline: 2px solid red; */
+   margin-right: 50px;
+   padding-top: 10px;
+}
+.ft-logo img {
+   display: block;
+   width: 100%;
+}
+
+footer .foot .inner {
+   display: inline-block;
+   width: 90%;
+}
+
+footer .foot .inner .links ul {
+   margin-bottom: 10px;
+   outline-color: 2px solid blue;
+}
+.links ul li a {
+   color: #fff;
+   font-size: 18px;
+}
+
+.links ul li, .contact-info ul li, .contact2 ul li {
+   display: inline-block;
+   margin-right: 20px;
+}
+
+.links a:hover {
+   color: #000;
+}
+
+.sns {
+   display: flex;
+   justify-content: end;  
+}
+
+.sns a {
+   margin-left: 20px; 
+}
+
+.sns img {
+   width: 30px;
+   height: 30px;
+   transition: transform 0.3s;
+}
+
+.sns img:hover {
+   transform: scale(1.2);
+}
+
+
