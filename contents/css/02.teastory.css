@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+
+main {
+    width: 100%;
+    max-width: 1920px; 
+    margin: 0 auto;
+
+    margin-top: 120px;
+}
+main img {
+    width: 100%;
+    display: block;
+}
+
+
+section {
+    width: 100%;
+    padding-top:  100px;
+}
+section article.tea {
+    width: 1280px;
+    margin: 0 auto;
+}
+section article.tea h2 {
+    color: #b81c2e;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'GyeonggiBatangROTFA';
+    margin-bottom: 30px;
+    /* margin-top: 50px; */
+}
+
+section article.tea .tabmenu {
+    text-align: center;  
+    margin-bottom: 60px;
+   
+    /* outline: 2px solid green; */
+}
+article.tea .tabmenu ul {}
+
+article.tea .tabmenu ul li {
+    float: none; 
+    display: inline-block;
+    margin: 0 10px;
+
+    /* outline: 1px solid red; */
+}
+article.tea .tabmenu ul li a {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;   
+}
+
+/* 현재 보여지는 페이지에 선택된 탭메뉴!!!  */
+article.tea .tabmenu ul li.on::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #b81c2e;
+}
+article.tea .tabmenu ul li.on a {
+    color: #b81c2e;
+}
+
+
+/* 티스토리 */
+
+article.tea .content-box {
+    width: 100%;
+}
+article.tea .content-box .box {
+    margin-bottom: 10px;
+    /* outline: 2px solid red; */
+
+    position: relative;
+}
+article.tea .content-box .box::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+article.tea .content-box .img-box {
+    width: 50%;
+    border-radius: 30px;
+    overflow: hidden;
+    float: left;
+    margin-right: 5%;
+
+    /* outline: 2px solid blue; */
+}
+article.tea .content-box .img-box img {
+    width: 100%;
+    display: block;
+}
+article.tea .content-box .box .txt-box {
+    width: 50%;
+    float: left;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+
+    text-align: center;
+}
+
+/* 짝수번째 img-box*/
+article.tea .content-box .even {
+
+    width: 100%;
+ }
+ article.tea .content-box .even .img-box {  
+     /* width: 45%; */
+     float: right;   
+     width: 50%;  
+     margin-right: 0;
+ }
+
+/* 짝수번째 txt-box */
+
+article.tea .content-box .even .txt-box {
+    left: 0;
+    width: 50%;  
+    /* outline: 2px solid aqua; */
+}
+
+article.tea .content-box .txt-box h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+article.tea .content-box .txt-box p {
+    font-size: 20px;
+    word-break: break-all;
+}
+
+/* play */
+section article.play {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+article.play .play-box {
+    text-align: center;
+    margin-bottom: 80px ;
+
+   /*  outline: 2px solid blue; */
+}
+article.play .play-box .en {
+    font-size: 34px;
+    font-weight: 700;
+    color: #b81c2e;
+    margin: 40px 0;
+}
+article.play .play-box .gb {
+    font-size: 40px;
+    font-family: 'GyeonggiBatangBOTFA';
+    margin : 20px 0;
+}
+article.play .play-box .ko {
+    font-size: 18px;
+}
+
+

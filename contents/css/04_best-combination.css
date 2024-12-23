@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+section {
+    width: 100%;
+    padding-top: 150px;
+}
+section article.combi {
+    width: 1280px;
+    margin: 0 auto;
+}
+section article.combi h2 {
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+section article.combi>p {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* tap-menu */
+
+section article.combi .tab-menu {
+    margin-bottom: 30px;
+    text-align: center;
+
+    /* outline: 2px solid red; */
+}
+
+section article.combi .tab-menu ul{}
+section article.combi .tab-menu ul li {
+    float: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 5px;
+    
+    border: 2px solid #B81C2E;
+    border-radius: 50px;
+    padding: 8px 18px;
+}
+.tab-menu ul li a {
+    color: #3B3030;
+}
+.tab-menu ul li.on {
+    background-color: #B81C2E;
+    border-color: #B81C2E;
+}
+.tab-menu ul li.on a {
+    color: #fff;
+}
+/* tap-menu */
+
+
+
+article.combi .content-box {
+    width: 100%;   
+}
+
+
+/* 구현을 위한 준비 */
+article.combi .content-box > div {
+    width: 100%;
+    position: relative;
+
+    display: none; /* 구현 초기설정 */ 
+}
+article.combi .content-box>div.on {
+    display: block;
+}
+/* 구현을 위한 준비 */
+
+
+
+article.combi .content-box>div::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.content-box > div .img-box {
+    width: 50%;
+    float: left;
+
+    /* outline: 2px solid red; */
+}
+.content-box > div .img-box img {
+    width: 100%;
+    display: block;
+}
+
+.content-box > div .txt-box {
+    width: 50%;
+    float: left;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+
+    margin-left: 10%;
+
+    /* outline: 2px solid black; */
+
+}
+.content-box > div .txt-box h3 {
+    color: #3B3030;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.content-box > div .txt-box p {
+    color: #674636;
+    font-size: 28px;
+}
+.content-box > div .txt-box .bold {
+    font-weight: bold;
+    co
+}

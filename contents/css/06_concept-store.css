@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+main {
+    width: 100%;
+    max-width: 1920px; 
+    margin: 0 auto;
+
+    margin-top: 120px;
+}
+main img {
+    width: 100%;
+    display: block;
+}
+
+section {
+    width: 100%;
+    padding-top: 100px;
+}
+section article.store {
+    width: 1280px;
+    margin: 0 auto;
+}
+section article.store h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+section article.store > p {
+    text-align: center;
+}
+
+article.store .content-box {
+    width: 100%;
+    /* background-color: bisque; */
+    margin: 50px;
+}
+article.store .content-box .box {
+    margin-bottom: 10px;
+
+    position: relative;
+}
+article.store .content-box .box::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.content-box .box .img-box {
+    width: 50%;
+    float: left;
+    margin-right: 5%;
+    
+    /* outline: 2px solid red */;
+}
+.content-box .box .img-box img {
+    width: 100%;
+    display: block;
+    border-radius: 30px; 
+}
+
+.content-box .box .txt-box {
+    width: 50%;
+    float: left;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+.content-box .box .txt-box h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.content-box .box .txt-box p {
+    font-size: 18px;
+    /* outline: 2px solid blueviolet; */
+}
+.content-box .box .txt-box .span {
+    color: #c32032;
+
+    /* outline: 2px solid blueviolet; */
+}
+
+
+/* 짝수번째 */
+.content-box .even {
+    width: 100%;
+}
+.content-box .even .img-box {
+    float: right;
+    width: 50%;
+    margin-right: 0;
+}
+
+.content-box .even .txt-box  {
+    left: 0;
+    width: 50%;
+}
+
+.content-box .even .txt-box h3 {
+    /* color: blueviolet; */
+}
+
+
+/* 슬라이드 */
+.content-box .box .img-box {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    /* outline: 2px solid blue; */
+}
+
+.content-box .box .img-box .slide {
+    width: 100%;
+    position: absolute;
+}
+.content-box .box .img-box .slide img {
+    width: 100%;
+    display: block;
+}
+.img-box .active {
+    z-index: 1;
+}
+
+
+
+
+
