@@ -26,18 +26,18 @@ section article.store h2 {
 }
 section article.store > p {
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
 }
-
 article.store .content-box {
-    width: 100%;
     /* background-color: bisque; */
     margin: 100px 0;
 }
 article.store .content-box .box {
-    margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 30px;
 
     position: relative;
+   /*  outline: 2px solid blue; */
 }
 article.store .content-box .box::after {
     content: "";
@@ -47,24 +47,27 @@ article.store .content-box .box::after {
 .content-box .box .img-box {
     width: 50%;
     float: left;
-    margin-right: 5%;
     
-    /* outline: 2px solid red */;
+   /*  outline: 2px solid red; */
 }
 .content-box .box .img-box img {
-    width: 100%;
-    display: block;
+    /* width: 100%;
+    display: block; */
     border-radius: 30px; 
 }
 
 .content-box .box .txt-box {
-    width: 50%;
+    width: 45%;
     float: left;
 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateY(-50%);
+
+    margin-left: 5%;
+
+   /*  outline: 2px solid red; */
 }
 .content-box .box .txt-box h3 {
     font-size: 30px;
@@ -73,7 +76,7 @@ article.store .content-box .box::after {
 }
 .content-box .box .txt-box p {
     font-size: 18px;
-
+    word-break: break-all;
     /* outline: 2px solid blueviolet; */
 }
 .content-box .box .txt-box span {
@@ -81,20 +84,21 @@ article.store .content-box .box::after {
     font-weight: 500;
 }
 
-
 /* 짝수번째 */
 .content-box .even {
     width: 100%;
 }
 .content-box .even .img-box {
     float: right;
+    
     width: 50%;
-    margin-right: 0;
 }
-
 .content-box .even .txt-box  {
+    width: 45%;
     left: 0;
-    width: 50%;
+    margin-left: 0;
+   
+   /*  outline: 2px solid blueviolet; */
 }
 .content-box .even .txt-box h3 {
     /* color: blueviolet; */
@@ -120,9 +124,7 @@ article.store .content-box .box::after {
     display: block;
     z-index: 1;
 }
-.slide {
-    z-index: 0; 
-}
+
 
 
 

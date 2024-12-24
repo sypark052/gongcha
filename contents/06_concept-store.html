@@ -19,41 +19,43 @@
     <script src="../js/jquery-1.12.4.min.js"></script>
     <script src="../js/index.js"></script>
 
-    <script>
+    <!-- <script>
 
-       /*  $(document).ready(function () {
+        $(document).ready(function () {
 
-            var autoCall; //인터벌용 변수
+            var autoCall; 
             autoCall = setInterval(fadeSlide, 3000);
 
-            $('.box .img-box').mouseover(function () {
-                //인터벌 제거 - 멈춤
+            $('.img-box').mouseover(function () {
+                
                 clearInterval(autoCall);
             }).mouseout(function () {
-                //인터벌 재가동
+                
                 autoCall = setInterval(fadeSlide, 3000);
             });
 
         });
 
+        //fadeSlide 함수 만들기
         function fadeSlide() {
-            var firstSlide = $('.box .img-box .slide').first();
+            //1번 슬라이드
+            var firstSlide = $('.img-box .slide').first();
 
+            //2번 슬라이드
             var nextSlide = firstSlide.next();
 
             nextSlide.hide().addClass('active').fadeIn(800, function () {
                 //다음을 위한 준비!
                 //1번 슬라이드를 맨뒤로 이동!
                 //firstSlide.appendTo('.viewer');
-                $('.box .img-box').append(firstSlide);
+                $('.img-box').append(firstSlide);
 
                 //첫 번째 슬라이드의 z-index 제거!
                 firstSlide.removeClass('active');
             });
-        }; */
 
-        
-    </script>
+        }
+    </script> -->
 
 </head>
 
@@ -120,7 +122,7 @@
 
     <section>
         <article class="store">
-            <h2>컨셉스토어매장</h2>
+            <h2>컨셉스토어</h2>
             <p>공차의 컨셉스토어 매장은 기존의 공차 매장에서 볼 수 없었던<br>
                 티 칵테일, 프룻티, 콜드브루티 등 프리미엄 티와 매장에서 직접 구운 신선한 베이커리 등<br>
                 차와 함께 즐길 수 있는 다양한 시그니처 메뉴를 통해 공차가 제시하는
@@ -149,10 +151,10 @@
                     <div class="txt-box">
                         <h3>선릉점</h3>
                         <p>공차의 첫 컨셉스토어 매장 선릉점!
-                            선릉점의 스페셜 티는 동방의 미인처럼 섬세하고 매혹적인 우롱티인 <span>‘동방미인티’</span>,
+                            선릉점의 스페셜 티는 동방의 미인처럼<br> 섬세하고 매혹적인 우롱티인 <span>‘동방미인티’</span>,
                             오스만투스 꽃의 향긋함이 블렌딩된 크리미한 맛의 <span>‘플로럴 우롱티’</span>,
                             붉은 수색이 아름다운 카페인 프리 허브티인 <span>‘루이보스티’</span> 3종입니다.
-                            오리지널 티를 비롯해 밀크티, 콜드브루티 등 취향에 맞춰 다양하게 즐길 수 있습니다.</p>
+                            오리지널티를 비롯해 밀크티, 콜드브루티 등 취향에 맞춰 다양하게 즐길 수 있습니다.</p>
                     </div>
 
                     <div class="img-box">
@@ -170,11 +172,11 @@
 
                     <div class="txt-box">
                         <h3>부산 해운대점</h3>
-                        <p>부산에 첫 오픈하는 컨셉 스토어! 바다를 배경으로 프리미엄 티 즐길 수 있습니다!<br>
+                        <p>부산에 첫 오픈하는 컨셉 스토어!<br> 바다를 배경으로 프리미엄 티 즐길 수 있습니다!<br>
                             공차는 부산의 특색을 담은 특화 메뉴로
-                            해운대 엘시티점에서만 맛볼 수 있는<br> 음료! 2종을 소개 합니다.<br>
+                            해운대 엘시티점에서만 맛볼 수 있는 음료! 2종을 소개 합니다.<br>
                             <span>‘해운대 블루 펀치’</span>는 해운대의 푸른 바다 모티브로 한 음료이며
-                            레몬 베이스와<br> 화이트펄이 사용되었고,
+                            레몬 베이스와 화이트펄이 사용되었고,
                             <span>‘동백꽃 블로썸 티’</span>는 부산 동백섬의 동백꽃에서 영감을 받은 메뉴로
                             붉은빛의 화사한 비주얼이 특징입니다.
                         </p>
@@ -236,13 +238,6 @@
         </div>
 
     </footer>
-
-
-
-
-
-
-
 
 </body>
 

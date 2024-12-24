@@ -132,16 +132,12 @@ article.flow {
     background-image: url(../images/pattern_01.jpg); 
     background-position: center; 
     overflow: hidden; 
-    /* display: flex;
-    justify-content: center; 
-    align-items: center;  */
 
     margin-bottom: 120px;
 }
 
 article.flow .flow-txt { /* 흘러가는 덩어리!!!! */
-    /* display: flex; 
-    justify-content: flex-start; */
+   
     width: 150%;
     white-space: nowrap; 
 
@@ -151,8 +147,7 @@ article.flow .flow-txt { /* 흘러가는 덩어리!!!! */
 
 
 article.flow .flow-txt li {
-    /* display: inline-flex; */
-    /* align-items: center; */ /* 이미지와 텍스트 세로 중앙 정렬 */
+   
     margin: 0 20px; 
     white-space: nowrap; 
 
@@ -185,7 +180,7 @@ article.flow .flow-txt li {
 
 article.best-menu {
     width: 1280px;
-    margin: 0 auto 50px;  
+    margin: 0 auto 100px;  
 
     overflow: hidden;
     position: relative; /* menu-btn 기준 */
@@ -209,7 +204,6 @@ article.best-menu .title h3 {
     font-family: "Noto Sans KR", serif;
     margin: 14px auto;
 }
-
 
 article.best-menu .viewer {
     width: 33.33%;
@@ -368,7 +362,8 @@ section.banner {
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    height: 500px;
+    /* height: 500px; */
+    padding: 120px 0;
     background: url(../images/sencha.jpg)  no-repeat center; 
     text-align: center;
 
@@ -379,26 +374,27 @@ section.banner {
 
 section.banner .banner-box {
    /*  outline: 2px solid blueviolet; */
-    padding-top: 140px; 
+    /* padding-top: 140px;  */
 }
 
 section.banner .banner-box .order {
     color:bisque;
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 30px;
+    font-size: 20px;
+  
+    margin-bottom: 40px;
 }
-.banner .banner-box .custum {
+.banner .banner-box .custom {
     color: #fff;
-    font-size: 16px;
-    margin-bottom: 20px;
+    
+    font-size: 24px;
+    margin-bottom: 6px;
 
     font-family: 'GyeonggiBatangROTFA';
 }
-.banner .banner-box .custum2 {
+.banner .banner-box .custom2 {
     color: #fff;
-    font-size: 32px;
-    font-weight: 500;
+
+    font-size: 36px;
     margin-bottom: 50px ;
 
     font-family: 'GyeonggiBatangBOTFA'; 
@@ -406,7 +402,7 @@ section.banner .banner-box .order {
 
 .banner .banner-box .btn {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     border: 2px solid #fff;
     display: inline-block;
     padding: 12px 20px;
@@ -415,7 +411,7 @@ section.banner .banner-box .order {
 }
 
 .banner .banner-box .btn:hover {
-    color: #000;
+    /* color: #000; */
     background-color: #b81c2e;
     border-color:  #b81c2e;
     
