@@ -17,6 +17,34 @@
      <script src="../js/jquery-1.12.4.min.js"></script>
      <script src="../js/index.js"></script>
 
+     <script>
+
+        $(document).ready(function(){
+            
+            $('.tab-menu a').click(function(e){
+                e.preventDefault();
+
+                
+             $('.txt-box').hide();
+             $('.txt-box').delay(400).fadeIn(800);
+        
+             $('.img-box').fadeIn(1000);
+
+                var aHref = $(this).attr('href');
+                console.log(aHref);
+
+                $(this).parent().addClass('on').siblings().
+                removeClass('on');
+
+                $(aHref).addClass('on').siblings().removeClass('on');
+
+            });
+
+        });
+    
+
+     </script>
+
 </head>
 <body>
 
@@ -74,6 +102,10 @@
         </div>
     </header>
 
+
+    <main>
+        <img src="images/04_best-combination/bestcombi_main.jpg" alt="">
+    </main>
     <section>
         <article class="combi">
             <h2>추천조합</h2>
@@ -85,7 +117,7 @@
                         <li><a href="#box2">초콜렛밀크티</a></li>
                         <li><a href="#box3">타로밀크티</a></li>
                         <li><a href="#box4">밀크티우롱폼</a></li>
-                        <li><a href="#bo5x">망고요구르트</a></li>
+                        <li><a href="#box5">망고요구르트</a></li>
                         <li><a href="#box6">제주그린티스무디</a></li>
                     </ul>
                 </div>
@@ -102,9 +134,7 @@
                             <p>공차 대표메뉴 블랙밀크티와<br>쫄깃쫄깃한 펄의 콤비네이션</p>
                         </div>
                     </div>
-                </div>
-
-                <div class="content-box">
+                
                     <div id="box2" class="con2">
                         <div class="img-box">
                             <img src="images/04_best-combination/best_02.png" alt="초콜렛밀크티">
@@ -116,9 +146,7 @@
                             <p>부드러운 밀크에 녹아든<br>진한 초콜렛을 느낄 수 있는<br>초콜렛 밀크티</p>
                         </div>
                     </div>
-                </div>
-
-                <div class="content-box">
+                
                     <div id="box3" class="con3">
                         <div class="img-box">
                             <img src="images/04_best-combination/best_03.png" alt="타로밀크티">
@@ -129,9 +157,7 @@
                             <p class="bold">밀크폼+타피오카펄<br>얼음보통+당도50%</p> <p>토란과인 타로파우더에  밀크가 만나<br> 타로의 고소함과 부드러운 밀크의 조합</p>
                         </div>
                     </div>
-                </div>
-
-                <div class="content-box">
+                
                     <div id="box4" class="con4">
                         <div class="img-box">
                             <img src="images/04_best-combination/best_04.png" alt="밀크폼우롱티">
@@ -143,9 +169,7 @@
                             <p>단짠단짠 가볍게 마시기 좋은<br> 다이어터 원픽 꿀조합</p>
                         </div>
                     </div>
-                </div>
-
-                <div class="content-box">
+                
                     <div id="box5" class="con5">
                         <div class="img-box">
                             <img src="images/04_best-combination/best_05.png" alt="망고요구르트">
@@ -157,9 +181,8 @@
                             <p>달콤한 망고 과육과 요구르트에<br> 화이트펄의 꼬들꼬들함이 느껴지는 주스</p>
                         </div>
                     </div>
-                </div>
 
-                <div class="content-box">
+                
                     <div id="box6" class="con6">
                         <div class="img-box">
                             <img src="images/04_best-combination/best_06.png" alt="제주그린티스무디">
@@ -171,7 +194,8 @@
                             <p>공차 대표메뉴 블랙녹차가루와<br>부드러운 밀크폼을 함께 즐길 수 있는<br> 제주 그린 스무디</p>
                         </div>
                     </div>
-                </div>
+    
+            </div>
             
         </article>
     </section>

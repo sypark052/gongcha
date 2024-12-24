@@ -1,29 +1,38 @@
 @charset "utf-8";
 
+main {
+    width: 100%;
+    margin-top: 120px;
+}
+
+main img {
+    width: 1920px;
+    margin: 0 auto;
+}
+
 section {
     width: 100%;
-    padding-top: 150px;
+    padding-top: 50px;
 }
 section article.combi {
     width: 1280px;
     margin: 0 auto;
 }
 section article.combi h2 {
-    font-size: 42px;
+    font-size: 40px;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 section article.combi>p {
     font-size: 30px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 /* tap-menu */
-
 section article.combi .tab-menu {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     text-align: center;
 
     /* outline: 2px solid red; */
@@ -53,26 +62,28 @@ section article.combi .tab-menu ul li {
 }
 /* tap-menu */
 
-
-
 article.combi .content-box {
-    width: 100%;   
-}
+    margin: 50px 0;
 
+   /*  background-color: greenyellow; */
+}
 
 /* 구현을 위한 준비 */
 article.combi .content-box > div {
-    width: 100%;
+    /* width: 100%; */
+    width: 1000px;
+    margin: 0 auto;
     position: relative;
 
-    display: none; /* 구현 초기설정 */ 
+   /* outline: 2px solid red; */
+
+   display: none; /* 구현 초기설정 */ 
 }
 article.combi .content-box>div.on {
     display: block;
 }
-/* 구현을 위한 준비 */
 
-
+/* 구현을 위한 준비 마지막 */
 
 article.combi .content-box>div::after {
     content: "";
@@ -80,41 +91,39 @@ article.combi .content-box>div::after {
     clear: both;
 }
 .content-box > div .img-box {
-    width: 50%;
+    width: 40%;
     float: left;
+    margin-right: 8%;
 
-    /* outline: 2px solid red; */
+   /*  outline: 2px solid blue; */
 }
 .content-box > div .img-box img {
-    width: 100%;
+    width: 80%;
     display: block;
+    margin: 0 auto;
 }
 
 .content-box > div .txt-box {
     width: 50%;
-    float: left;
-
+    
     position: absolute;
     top: 50%;
     left: 50%;
+    
     transform: translateY(-50%);
 
-    margin-left: 10%;
-
-    /* outline: 2px solid black; */
-
+   /*  outline: 2px solid black; */
 }
 .content-box > div .txt-box h3 {
     color: #3B3030;
-    font-size: 38px;
+    font-size: 32px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 .content-box > div .txt-box p {
     color: #674636;
-    font-size: 28px;
+    font-size: 24px;
 }
 .content-box > div .txt-box .bold {
     font-weight: bold;
-    co
 }

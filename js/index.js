@@ -10,6 +10,7 @@ $(document).ready(function(){
     });
 });
 
+
 //index article .new-js
 
 $(document).ready(function(){
@@ -49,6 +50,34 @@ $(document).ready(function(){
     
 });
 
+
+//index article flow - js
+
+$(document).ready(function(){
+    var autocall = setInterval(flow2, 30);
+});
+
+var moveNum = 0;
+
+function flow2 (){
+    moveNum++;
+
+    var boxWidth = $('ul.flow-txt li').first().outerWidth(true);
+
+    if(moveNum > boxWidth){
+        $('ul.flow-txt').append($('ul.flow-txt li').first()).css({
+            left: 0
+        });
+
+        moveNum = 0;
+    }else {
+        $('ul.flow-txt').css({
+            left: -moveNum
+        });
+    }
+}
+
+    
 //index article .best-menu-js
 
 $(function(){

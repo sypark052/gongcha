@@ -1,41 +1,11 @@
-/* @charset "utf-8";
+@charset "utf-8";
 
-footer {
-    width: 100%;
- 
-    background-color: #b81c2e;
-}
- footer .foot {
-    width: 1280px;
-    margin: 0 auto;
-    outline: 2px solid blue
- }
- footer .ft-logo {
-    float: left;
-    width: 10%;
-    outline: 2px solid forestgreen;
- }
- footer .inner {}
- footer .inner .links {}
- footer .inner .links ul li {
-    margin-left: 30px;
- }
-
-
-footer .business {}
-footer .business .contact {}
-footer .business .contact ul {}
-footer .business .contact ul li {}
-
-footer .business .contact {}
-footer .business .contact2 ul {}
-footer .business .contact ul li {} */
 
 footer {
    width: 100%;
    background-color: #b81c2e;
    color: #fff;
-   padding: 30px 0;
+   padding: 40px 0 30px ;
 }
 
 footer .foot {

@@ -52,9 +52,11 @@ article.order .content-box .content .step {
 
     /* margin-left: 5%; */
     padding: 10px 0;
+   /*  outline: 2px solid red; */
 }
 .content-box .content .step .img-box img {
     margin: 23px;
+    /* display: block;  */
 
     /* outline: 2px solid tomato; */ 
  }

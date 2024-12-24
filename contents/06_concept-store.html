@@ -20,9 +20,40 @@
     <script src="../js/index.js"></script>
 
     <script>
+
+       /*  $(document).ready(function () {
+
+            var autoCall; //인터벌용 변수
+            autoCall = setInterval(fadeSlide, 3000);
+
+            $('.box .img-box').mouseover(function () {
+                //인터벌 제거 - 멈춤
+                clearInterval(autoCall);
+            }).mouseout(function () {
+                //인터벌 재가동
+                autoCall = setInterval(fadeSlide, 3000);
+            });
+
+        });
+
+        function fadeSlide() {
+            var firstSlide = $('.box .img-box .slide').first();
+
+            var nextSlide = firstSlide.next();
+
+            nextSlide.hide().addClass('active').fadeIn(800, function () {
+                //다음을 위한 준비!
+                //1번 슬라이드를 맨뒤로 이동!
+                //firstSlide.appendTo('.viewer');
+                $('.box .img-box').append(firstSlide);
+
+                //첫 번째 슬라이드의 z-index 제거!
+                firstSlide.removeClass('active');
+            });
+        }; */
+
         
     </script>
-    
 
 </head>
 
@@ -37,17 +68,17 @@
                     <li>
                         <a href="#">공차</a>
                         <ul class="lnb">
-                            <li class="active"><a href="../contents/01_brandstory.html">브랜드스토리</a></li>
-                            <li class="active"><a href="../contents/02_teastory.html">티(tea)스토리</a></li>
+                            <li><a href="../contents/01_brandstory.html">브랜드스토리</a></li>
+                            <li><a href="../contents/02_teastory.html">티(tea)스토리</a></li>
                         </ul>
                     </li>
 
                     <li>
                         <a href="#">메뉴</a>
                         <ul class="lnb">
-                            <li class="active"><a href="../contents/03_how-to-order.html">주문방법</a></li>
+                            <li><a href="../contents/03_how-to-order.html">주문방법</a></li>
                             <li><a href="#">신메뉴</a></li>
-                            <li class="active"><a href="../contents/04_best-combination.html">추천조합</a></li>
+                            <li><a href="../contents/04_best-combination.html">추천조합</a></li>
                             <li><a href="#">음료</a></li>
                             <li><a href="#">디저트</a></li>
                             <li><a href="#">MD상품</a></li>
@@ -58,7 +89,7 @@
                         <a href="#">스토어</a>
                         <ul class="lnb">
                             <li><a href="#">스토어찾기</a></li>
-                            <li class="active"><a href="../contents/06_concept-store.html">컨셉스토어매장</a></li>
+                            <li><a href="06_concept-store.html">컨셉스토어매장</a></li>
                         </ul>
                     </li>
 
@@ -82,9 +113,9 @@
         </div>
     </header>
 
-<!-- 본문 내용 -->
+    <!-- 본문 내용 -->
     <main>
-        <img src="images/06_concept-store/06_conseptstore_main1.jpg" alt="">
+        <img src="images/06_concept-store/06_mainbanner.JPG" alt="">
     </main>
 
     <section>
@@ -107,9 +138,10 @@
                         <p>플래그십스토어 강남본점은 공차가 제시하는 새롭고 다양한 차 문화를<br>
                             빠르게 경험해볼 수 있는 공간입니다.<br>
                             찻잎을 직접 우려 향긋한 공차 티와 신선한 생과일이 조화롭게 어우러져 있는<br>
-                            새롭게 출시된 프리미엄 아이스 프룻티 3종<Br>
+                            새롭게 출시된 프리미엄 아이스 프룻티 3종<br>
                             <span>(리얼 믹스 베리 얼그레이티·리얼 라임 민트 우롱티·리얼 피치 오렌지 블랙티)</span><br>
-                            은 강남점에서 만나 보실 수 있습니다.</p>
+                            은 강남점에서 만나 보실 수 있습니다.
+                        </p>
                     </div>
                 </div>
 
@@ -127,7 +159,7 @@
                         <img src="images/06_concept-store/seolleung01.jpg" alt="선릉 매장" class="slide active">
                         <img src="images/06_concept-store/seolleung02.jpg" alt="선릉 음료" class="slide">
                     </div>
-                   
+
                 </div>
 
                 <div class="box">
@@ -144,7 +176,8 @@
                             <span>‘해운대 블루 펀치’</span>는 해운대의 푸른 바다 모티브로 한 음료이며
                             레몬 베이스와<br> 화이트펄이 사용되었고,
                             <span>‘동백꽃 블로썸 티’</span>는 부산 동백섬의 동백꽃에서 영감을 받은 메뉴로
-                            붉은빛의 화사한 비주얼이 특징입니다.</p>
+                            붉은빛의 화사한 비주얼이 특징입니다.
+                        </p>
                     </div>
                 </div>
             </div>
