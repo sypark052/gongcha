@@ -2,12 +2,14 @@
 
 main {
     width: 100%;
+    max-width: 1920px; 
+    margin: 0 auto;
+
     margin-top: 120px;
 }
-
 main img {
-    width: 1920px;
-    margin: 0 auto;
+    width: 100%;
+    display: block;
 }
 
 section {
@@ -61,6 +63,7 @@ section article.combi .tab-menu ul li {
     color: #fff;
 }
 /* tap-menu */
+
 
 article.combi .content-box {
     margin: 50px 0;

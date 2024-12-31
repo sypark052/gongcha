@@ -18,44 +18,8 @@
 
     <script src="../js/jquery-1.12.4.min.js"></script>
     <script src="../js/index.js"></script>
+    <script src="js/06_concept-store.js"></script>
 
-    <!-- <script>
-
-        $(document).ready(function () {
-
-            var autoCall; 
-            autoCall = setInterval(fadeSlide, 3000);
-
-            $('.img-box').mouseover(function () {
-                
-                clearInterval(autoCall);
-            }).mouseout(function () {
-                
-                autoCall = setInterval(fadeSlide, 3000);
-            });
-
-        });
-
-        //fadeSlide 함수 만들기
-        function fadeSlide() {
-            //1번 슬라이드
-            var firstSlide = $('.img-box .slide').first();
-
-            //2번 슬라이드
-            var nextSlide = firstSlide.next();
-
-            nextSlide.hide().addClass('active').fadeIn(800, function () {
-                //다음을 위한 준비!
-                //1번 슬라이드를 맨뒤로 이동!
-                //firstSlide.appendTo('.viewer');
-                $('.img-box').append(firstSlide);
-
-                //첫 번째 슬라이드의 z-index 제거!
-                firstSlide.removeClass('active');
-            });
-
-        }
-    </script> -->
 
 </head>
 
@@ -63,7 +27,7 @@
 
     <header>
         <div class="top">
-            <h1 class="logo"><a href="../index.html"><img src="images/common/logo.png" alt="공차로고"></a></h1></a></h1>
+            <h1 class="logo"><a href="../index.html"><img src="images/common/logo.png" alt="공차로고"></a></h1>
 
             <nav>
                 <ul class="gnb clear">
@@ -81,7 +45,7 @@
                             <li><a href="../contents/03_how-to-order.html">주문방법</a></li>
                             <li><a href="#">신메뉴</a></li>
                             <li><a href="../contents/04_best-combination.html">추천조합</a></li>
-                            <li><a href="#">음료</a></li>
+                            <li class="active"><a href="../contents/05_menu.html">음료</a></li>
                             <li><a href="#">디저트</a></li>
                             <li><a href="#">MD상품</a></li>
                         </ul>
@@ -233,8 +197,6 @@
                     <a href="#"><img src="images/common/k_icon.png" alt="카카오톡"></a>
                 </div>
             </div>
-        </div>
-
         </div>
 
     </footer>
