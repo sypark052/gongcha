@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+main {}
+
+section {
+    width: 1280px;
+    margin: 0 auto;
+}
+section article {
+    margin: 130px 0;
+}
+section article h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align-last: center;
+}
+section article p {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section article div {
+   
+}
+section article div ul {
+   
+}
+section article div ul li {   
+    float: left;
+    width: 33.33%;
+}
+
+section article div ul li.box {
+    margin-top: 8px;
+    /* outline: 2px solid red; */
+}
+
+section article div ul li a {}
+section article div ul li img {
+    border-radius: 5%;
+
+}
+
+
+
