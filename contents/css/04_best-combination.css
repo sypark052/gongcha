@@ -44,7 +44,7 @@ section article.combi .tab-menu ul{}
 section article.combi .tab-menu ul li {
     float: none;
     font-size: 18px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     display: inline-block;
     margin: 0 5px;
     

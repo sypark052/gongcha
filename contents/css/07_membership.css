@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+main {}
+
+article.membership {
+    width: 1280px;
+    margin: 130px auto;
+}
+
+/* tap-menu */
+article.membership .tab-menu {
+    margin-bottom: 50px;
+    text-align: center;
+}
+article.membership .tab-menu ul {}
+article.membership .tab-menu ul li {
+    float: none;
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 20px;
+
+    border: 2px solid #B81C2E;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+article.membership .tab-menu ul li.on {
+    background-color: #B81C2E;
+    border-color: #B81C2E;
+}
+article.membership .tab-menu ul li.on a {
+    color: #fff;
+}
+article.membership .tab-menu ul li a {
+    color:#3B3030 ;
+}
+
+
+
+.content-box {
+    width: 1000px; 
+    margin: 0 auto;
+}
+
+
+.con1, .con2 {
+    overflow: hidden; 
+    margin-bottom: 40px; /* 각 박스 간 간격 */
+}
+
+.img-box {
+    float: left; 
+    width: 50%;  
+}
+
+.img-box img {
+    width: 400px;
+    display: block;
+}
+
+.info-box {
+    float: right; 
+    width: 50%; 
+
+    margin-top: 30px;
+}
+
+/* .clear {
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+.info-box h2 {
+    font-size: 1.5em; 
+    font-weight: 700;
+    margin-bottom: 10px; 
+}
+
+.info-box p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
