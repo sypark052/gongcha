@@ -1,15 +1,20 @@
 @charset "utf-8";
 
 main {
+    width: 100%;
+    max-width: 1920px;
+    margin: 120px auto 0;
    
 }
 main img {
+    width: 100%;
+    display: block;
    
 }
 
 section {
     width: 100%;
-    margin-top: 150px;
+   
 }
 
 section article.order {}
@@ -22,7 +27,7 @@ section article.order h1 {
 section article.order .or-txt {
     font-size: 30px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 article.order .content-box {

@@ -1,10 +1,20 @@
 @charset "utf-8";
 
-main {}
+main {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+
+    margin-top: 120px;
+}
+main img {
+    width: 100%;
+    display: block;
+}
 
 article.membership {
     width: 1280px;
-    margin: 130px auto;
+    margin: 80px auto;
 }
 
 /* tap-menu */
