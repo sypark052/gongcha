@@ -4,17 +4,15 @@ main {
     width: 100%;
     max-width: 1920px;
     margin: 120px auto 0;
-   
 }
+
 main img {
     width: 100%;
     display: block;
-   
 }
 
 section {
     width: 100%;
-   
 }
 
 section article.order {}
